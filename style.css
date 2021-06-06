@@ -1,0 +1,195 @@
+.navbar{
+    margin-bottom: 35px;
+    padding:0;
+}
+
+.container-fluid{
+    padding:0;
+}
+
+.navbar-brand{
+    padding:15px;
+    background-color:rgb(27, 172, 152) ;
+}
+
+#navbarDropdownMenuLink{
+    color:grey;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color:grey;
+}
+
+.active{
+    background-color: rgb(153, 211, 203);
+}
+
+#navbarDropdownMenuLink:hover{
+    background-color: rgb(192, 235, 229);
+}
+
+.nav-item:hover {
+    background-color: rgb(192, 235, 229);
+  }
+
+.container-fluid{
+    background-color: white;
+}
+.navbar-toggler{
+    margin-right:10px;
+}
+
+
+.box {
+    min-height: 50px;
+    padding: 30px;
+    margin: 10px;
+    font-weight: 800;
+    color: #fff;
+    background: white;
+  }
+  
+.box h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-color: rgb(240, 240, 240);
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    text-align: left;
+    color: rgb(27, 172, 152)
+}
+
+.box b{
+    color: black;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+h1{
+    font-family: Georgia,Times,"Times New Roman",serif; 
+}
+
+p{
+    font-family:"arial";
+    font-weight: normal;
+
+}
+
+body {
+    background-color: rgb(243, 239, 239);
+}
+
+.main{
+    padding: 20px;
+}
+
+
+.Map_firstbox{
+    padding: 15px;
+}
+
+
+.summary_firstbox{
+    padding: 25px;
+}
+
+.summary_firstbox img{
+    float: left;
+    margin: 10px;
+}
+
+
+.summary_firstbox p{
+    text-align: justify;
+    font-size: 15px;
+    color:rgb(131, 131, 131);
+}
+
+
+.secondbox{
+    padding: 15px;
+}
+
+.secondbox img {
+    margin-bottom:4px;
+    margin-top: 4px;
+}
+
+.secondbox img:hover {
+    border: solid 2px rgb(27, 172, 152);
+    margin: -2px;
+}
+
+.comparison_img img:hover{ 
+    border: solid 2px rgb(27, 172, 152);
+    margin: -2px;
+}
+
+
+.comparison_img h6{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(27, 172, 152);
+}
+
+.comparison_img{
+    margin-bottom: 30px;
+}
+
+.comparison_img h6{
+    margin: 20px;
+}
+
+
+
+@media (max-width: 991px) {
+    .container-fluid{
+        background-color:rgb(27, 172, 152);
+    }
+    #navbarDropdownMenuLink{
+        background-color: white;
+    }
+    .nav-link{
+        background-color: white;
+    }
+    .navbar-dark .navbar-nav .nav-link.active{
+        color:grey;
+    }
+    .nav-link:hover{
+        background-color:  rgb(192, 235, 229);
+    }
+}
+
+
+.dataframe{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.dataframe {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  .dataframe td, .dataframe th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .dataframe tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .dataframe tr:hover {background-color: #ddd;}
+  
+  .dataframe th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color:  rgb(27, 172, 152);
+    color: white;
+  }
+
+  
